@@ -66,3 +66,8 @@
 
 7. Move all expired TODOs (deadline passed) to status 3
 @Route '/api/expiretodos'
+
+>>> Commands <<<
+
+@Command symfony console doctrine:fixtures:load
+-> Cleans ToDo table and add 10 sample todos using faker
